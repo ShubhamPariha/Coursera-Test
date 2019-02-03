@@ -10,6 +10,8 @@ h1 {
 p {
 	padding: 10px;
 	margin: 0;
+	font-weight: bold;
+	font-size: 20px;
 }
 
 .container {
@@ -30,16 +32,16 @@ section {
 
 section>h2 {
     float: right;
-    border-bottom: 1px solid black;
-    border-left: 1px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
     margin: 0;
     width: 150px;
     text-align: center;
     font-style: normal;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     height: 35px;
-    padding-top: 5px;
+    padding-top: 0;
 }
 
 section.chicken>h2 {
@@ -188,5 +190,7 @@ section.sushi>h2 {
 				width: 100%;
 			}
 		}
+
+        
 
         
